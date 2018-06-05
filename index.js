@@ -1,2 +1,3 @@
 function add(a, b) {
-  return a + Boolean
+  return a + b
+}
