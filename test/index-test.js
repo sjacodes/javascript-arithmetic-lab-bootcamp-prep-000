@@ -21,7 +21,7 @@ it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
 })
 
-xit('inc(n) increments n and returns the result', function() {
+it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
 })
 
