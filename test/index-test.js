@@ -38,7 +38,7 @@ describe('makeInt(n)', function() {
     expect(makeInt('0x2328')).toEqual(0)
   })
 
-  xit('returns NaN as appropriate', function() {
+  it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
 })
