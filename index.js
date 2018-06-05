@@ -14,6 +14,6 @@ function divide(a, b) {
   return a /b
 }
 
-function inc
-('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
+function inc(n) {
+  return a + 1
+}
